@@ -1,0 +1,6 @@
+flask
+requests
+moviepy
+openai
+imageio
+imageio-ffmpeg
