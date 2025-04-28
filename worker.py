@@ -7,7 +7,7 @@ import openai
 
 # Configurações
 FILA_ARQUIVO = '/tmp/fila_vistorias.json'
-WHISPER_API_KEY = 'OPEN_AI_Key'
+WHISPER_API_KEY = os.getenv('WHISPER_API_KEY')
 
 # Função para processar uma tarefa
 def processar_tarefa(tarefa):
